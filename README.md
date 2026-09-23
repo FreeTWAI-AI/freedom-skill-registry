@@ -1,5 +1,21 @@
 # Freedom Skill Registry
 
+<!-- freedom-repository-guide:start -->
+## 在自由工坊的位置
+
+[自由工坊](https://freetwai.com) 讓會員先完成定位、選擇公會並領取 Repo 技能書，再以供貨、商店、開源作品、行銷與小隊共同完成成果。
+
+公開技能與作品的宣告入口及匯入轉換工具。 已有 project import helpers、manifest 轉換、starter-skill 與空的 PR 維護宣告清單。
+
+技能安裝、能力驗證、版本自動同步與正式審核轉移尚未實作；空清單不是平台沒有技能書。
+
+本 repo 的維護者負責「公開技能與作品的宣告入口及匯入轉換工具。」這個模組；公會職稱與自填 GitHub slug 不授予寫入權。
+
+程式／內容入口：[src/index.mjs](src/index.mjs)、[registry/packages.yaml](registry/packages.yaml)、[templates/starter-skill/](templates/starter-skill/)、[scripts/check-registry.mjs](scripts/check-registry.mjs)、[test/](test/)。協作先讀 [CONTRIBUTING.md](CONTRIBUTING.md)，讓 Agent 讀 [AGENTS.md](AGENTS.md)；從[本倉 Issues](https://github.com/FreeTWAI-AI/freedom-skill-registry/issues)認領、[查看既有 PR](https://github.com/FreeTWAI-AI/freedom-skill-registry/pulls)避免重工。
+
+GitHub 擁有原始碼；中央平台重新讀 GitHub 並保存 import evidence。此 repo 的宣告不會自行建立會員、授予技能或把作品標為官方。 跨 repo 的協定由[中央平台](https://github.com/FreeTWAI-AI/freedom-platform)維護。
+<!-- freedom-repository-guide:end -->
+
 Public import declarations and starter material for skills and open projects. GitHub owns source code; Freedom Platform owns membership, imported project records, review evidence and state. This repository has no database.
 
 ## Run
